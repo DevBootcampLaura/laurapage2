@@ -1,0 +1,125 @@
+body {
+	font-family: 'Fauna+One', sans-serif;
+	color: yellow;
+	background: #420600 url('img/metal-texture.jpg') repeat;
+}
+
+a {
+	color: #2A0400;
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: 'Vibur', serif;
+    font-size: 1.750em;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+	font-family: 'Vibur', serif;
+	font-size: 2.5em;
+	color: #2A0400;
+	text-shadow: 3px 3px 3px #FFCC00;
+}
+
+ul.nav {
+	font-family: 'Vibur', serif;
+	list-style: none;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0 0 0;
+	margin: 70px 0 0 0;
+}
+
+ul.nav li {
+	float: left;
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	border: 4px double #FFCC99;
+	border-radius: 20px;
+}
+
+ul.nav li a {
+	color: yellow;
+	font-size: 1.750em;
+	text-shadow: 3px 3px 3px #2A0400;
+}
+
+ul.nav img {
+	width: 50px;
+	height: auto;
+	float: left;
+}
+
+ul.nav li:hover {
+	margin-top: -5px;
+	border-color: gray;
+	border-radius: 40px;
+	background: #FFCC00;
+}
+
+ul.nav li a:hover {
+	color: gray;
+}
+
+#me {
+	border-top: 5px dotted white;
+	border-bottom: 5px dotted white;
+}
+
+
+#intro {
+	color: #FFCC00;
+	text-shadow: 3px 3px 3px #2A0400;
+}
+
+#quirk img {
+	border: 5px dotted white;
+	margin-top: 80px;
+	width: 450px;
+	height: auto;
+}
+
+#love img {
+	border: 5px dotted white;
+	width: 450px;
+	height: auto;
+}
+
+#copyright {
+	color: yellow;
+	border-top: 4px #FFCC99;
+	border-top-style: double;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+}
+
+.grid_12 {
+	text-align: center;
+}
+
+.btn {
+	font-family: 'Vibur', serif;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #FFCC00;
+	background: gray;
+	padding: 15px 15px 15px 15px;
+	border-top: 3px dotted yellow;
+	border-bottom: 3px dotted yellow;
+	border-radius: 40px;
+}
+
+.btn:hover {
+	background: #2A0400;
+	color: yellow;
+	text-shadow: 5px 5px 5px #FFCC00;
+	margin-right: 50px;
+	border: none;
+	border-radius: 20px;
+}
