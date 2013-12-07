@@ -32,9 +32,8 @@ ul.nav {
 	clear: both;
 	overflow: hidden;
 	width: 100%;
-	text-align: center;
 	padding: 1% 0 0 0; /*10px*/
-	margin: 7% 0 0 0; /*70px*/
+	margin: 0 0 0 0; /*70px*/
 }
 
 ul.nav li {
@@ -42,7 +41,7 @@ ul.nav li {
 	width: 24%; /*240px*/
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 4.16%; /*10px*/
+	padding-top: 1%; 
 	border: 0.25em double #FFCC99;
 	border-radius: 1.25em;
 }
@@ -125,4 +124,125 @@ ul.nav li a:hover {
 	margin-right: 5%; /*50px*/
 	border: none;
 	border-radius: 1.25em;
+}
+
+/* media queries */
+/*iphone*/
+@media screen and (max-width: 480px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+
+	.nav ul {
+		margin: 1% 0;
+	}
+
+	.nav ul li a {
+		-webkit-user-select: none;
+	}
+
+	.nav ul li {
+		float: left;
+		margin: 1% 0;
+	}
+	
+	#about, #resume, #blog, #contact {
+		width: 45%;
+		margin: 0;
+		font-size: 0.75em;
+	}
+
+
+	#me, #intro {
+		display: none;
+	}
+
+	#love, #quirk {
+		margin: 5% 0;
+	}
+
+	#love img, #quirk img {
+		max-width: 95%;
+	}
+
+
+}
+
+/*ipad*/
+@media screen and (max-width: 1024px) {
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width: 100%;
+	}
+
+	#flexbox {
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-flex-direction: column;
+	    flex-direction: column;
+	  }
+
+	  #navbar {
+	    -webkit-order: 2;
+	    order: 2;
+	  }
+
+	  #me {
+	    -webkit-order: 1;
+	    order: 1;
+	    width: 70%;
+	    padding-top: 5%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border: none;
+	  }
+
+	 #about, #resume, #blog, #contact {
+		width: 95%;
+		margin: 0;
+		font-size: 0.75em;
+	 }
+
+
+	ul.nav img {
+		width: 10%; 
+		padding-left: 30%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	#love, #quirk {
+		width: 95%;
+		margin: 5% 0;
+	}
+
+	#love img, #quirk img {
+		max-width: 95%;
+	}
+
+
 }
