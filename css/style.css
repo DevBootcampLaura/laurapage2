@@ -29,18 +29,14 @@ h2 {
 ul.nav {
 	font-family: 'Vibur', serif;
 	list-style: none;
-	clear: both;
-	overflow: hidden;
 	width: 100%;
-	padding: 1% 0 0 0; /*10px*/
-	margin: 0 0 0 0; /*70px*/
+	padding: 10% 0 0 0; /*10px*/
+	margin: 0; /*70px*/
 }
 
 ul.nav li {
 	float: left;
-	width: 24%; /*240px*/
-	margin-right: auto;
-	margin-left: auto;
+	width: 23%; /*240px*/
 	padding-top: 1%; 
 	border: 0.25em double #FFCC99;
 	border-radius: 1.25em;
@@ -55,7 +51,7 @@ ul.nav li a {
 ul.nav img {
 	width: 20.83%; /*50px*/
 	height: auto;
-	float: left;
+	padding-left: 8%;
 }
 
 ul.nav li:hover {
@@ -72,37 +68,37 @@ ul.nav li a:hover {
 #me {
 	border-top: 0.3125em dotted white;
 	border-bottom: 0.3125em dotted white;
+	margin-top: 5%;
 }
 
 
 #intro {
 	color: #FFCC00;
 	text-shadow: 0.1875em 0.1875em 0.1875em #2A0400;
+	margin-top: -20%;
 }
 
 #quirk img {
 	border: 0.3125em dotted white;
 	margin-top: 8%; /*80px*/
 	width: 91.83%; /*450px*/
-	height: auto;
 }
 
 #love img {
 	border: 0.3125em dotted white;
 	width: 91.83%; /*450px*/
-	height: auto;
+	margin-bottom: 10%;
 }
 
 #copyright {
 	color: yellow;
-	border-top: 0.25em #FFCC99;
-	border-top-style: double;
+	border-top: 0.25em double #FFCC99;
 	padding: 1% 0; /*10px*/
 	margin: 1.5% 0; /*15px*/
 	text-align: center;
 }
 
-.grid_12 {
+#facebook, #twitter, #end {
 	text-align: center;
 }
 
@@ -197,27 +193,20 @@ ul.nav li a:hover {
 		width: 100%;
 	}
 
-	#flexbox {
-	    display: -webkit-flex;
-	    display: flex;
-	    -webkit-flex-direction: column;
-	    flex-direction: column;
-	  }
+	#me {
+		float: right;
+		width: 100%;
+		border: none;
+	}
 
-	  #navbar {
-	    -webkit-order: 2;
-	    order: 2;
-	  }
+	#intro {
+		display: none;
+	}
 
-	  #me {
-	    -webkit-order: 1;
-	    order: 1;
-	    width: 70%;
-	    padding-top: 5%;
-	    margin-left: auto;
-	    margin-right: auto;
-	    border: none;
-	  }
+	#navbar {
+		float: right;
+		width: 100%;
+	}
 
 	 #about, #resume, #blog, #contact {
 		width: 95%;
@@ -225,11 +214,11 @@ ul.nav li a:hover {
 		font-size: 1em;
 	 }
 
+	 ul.nav img{
+	 	width: 10%;
+	 	padding-left: 35%;
+	 }
 
-	ul.nav img {
-		width: 10%; 
-		padding-left: 30%;
-	}
 
 	h2 {
 		text-align: center;
@@ -237,7 +226,7 @@ ul.nav li a:hover {
 
 	#love, #quirk {
 		width: 95%;
-		margin: 5% 0;
+		margin: 5% 2.5%;
 	}
 
 	#love img, #quirk img {
